@@ -21,6 +21,7 @@
 		CA174AC219B77AB800372169 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA174AA419B77AB700372169 /* UIKit.framework */; };
 		CA174ACA19B77AB800372169 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA174AC819B77AB800372169 /* InfoPlist.strings */; };
 		CA174ACC19B77AB800372169 /* MyFirstApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA174ACB19B77AB800372169 /* MyFirstApplicationTests.m */; };
+		CAF91BDD19B78BE600EC9B2A /* images-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CAF91BDC19B78BE600EC9B2A /* images-2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CA174AC719B77AB800372169 /* MyFirstApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		CA174AC919B77AB800372169 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CA174ACB19B77AB800372169 /* MyFirstApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstApplicationTests.m; sourceTree = "<group>"; };
+		CAF91BDC19B78BE600EC9B2A /* images-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-2.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		CA174AA719B77AB700372169 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CAF91BDC19B78BE600EC9B2A /* images-2.jpeg */,
 				CA174AA819B77AB700372169 /* MyFirstApplication-Info.plist */,
 				CA174AA919B77AB700372169 /* InfoPlist.strings */,
 				CA174AAC19B77AB700372169 /* main.m */,
@@ -230,6 +233,7 @@
 			files = (
 				CA174AB919B77AB800372169 /* Images.xcassets in Resources */,
 				CA174AAB19B77AB700372169 /* InfoPlist.strings in Resources */,
+				CAF91BDD19B78BE600EC9B2A /* images-2.jpeg in Resources */,
 				CA174AB419B77AB800372169 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +460,7 @@
 				CA174AD119B77AB800372169 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA174AD219B77AB800372169 /* Build configuration list for PBXNativeTarget "MyFirstApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +469,7 @@
 				CA174AD419B77AB800372169 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
